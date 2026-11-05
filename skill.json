@@ -1,0 +1,20 @@
+{
+  "name": "smooth-radar-skill",
+  "version": "1.2.0",
+  "style_count": 1,
+  "scale": "dual_anchor_custom",
+  "curve": "centripetal_catmull_rom",
+  "example": "anonymized five-model benchmark, Model A-E",
+  "outputs": [
+    "png",
+    "svg",
+    "pdf",
+    "scale_audit.json"
+  ],
+  "font_default": "Arial",
+  "font_fallback": [
+    "Liberation Sans",
+    "DejaVu Sans"
+  ],
+  "repository_name": "smooth-radar-skill"
+}

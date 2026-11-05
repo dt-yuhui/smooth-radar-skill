@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use smooth-radar-skill, please cite the repository."
+title: "Smooth Radar Skill"
+type: software
+version: 1.2.0
+date-released: 2026-11-05
+license: MIT

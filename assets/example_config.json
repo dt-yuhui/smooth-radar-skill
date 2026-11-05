@@ -1,0 +1,196 @@
+{
+  "name": "smooth_radar",
+  "title": "Example benchmark",
+  "models": [
+    "Model A",
+    "Model B",
+    "Model C",
+    "Model D",
+    "Model E"
+  ],
+  "colors": [
+    "#AEB8BE",
+    "#789BB2",
+    "#D4AE70",
+    "#83A8A2",
+    "#397D9E"
+  ],
+  "axes": [
+    "Region\nInternal",
+    "Region\nExternal",
+    "Region\nPublic",
+    "Pathology\nInternal",
+    "Pathology\nExternal",
+    "Pathology\nPublic",
+    "ISUP\nInternal",
+    "ISUP\nExternal",
+    "ISUP\nPublic",
+    "Prognosis\nInternal",
+    "Prognosis\nExternal",
+    "Prognosis\nPublic"
+  ],
+  "axis_groups": [
+    "Region",
+    "Region",
+    "Region",
+    "Pathology",
+    "Pathology",
+    "Pathology",
+    "ISUP",
+    "ISUP",
+    "ISUP",
+    "Prognosis",
+    "Prognosis",
+    "Prognosis"
+  ],
+  "group_colors": {
+    "Region": "#9EB2C3",
+    "Pathology": "#B5A9C3",
+    "ISUP": "#A9BDA4",
+    "Prognosis": "#C6ADA3",
+    "RFS": "#9EB2C3",
+    "DSS": "#B5A9C3",
+    "OS": "#A9BDA4"
+  },
+  "values": [
+    [
+      0.9407941311325138,
+      0.9319666666666668,
+      0.9287333333333332,
+      0.9409045742980146,
+      0.930709126840251,
+      0.9826910037606486,
+      0.8342354554045178,
+      0.7625201088778503,
+      0.7704598750053907,
+      0.7942620771291246,
+      0.748978347691105,
+      0.7352976519745354
+    ],
+    [
+      0.967306381298897,
+      0.9684333333333334,
+      0.9647333333333332,
+      0.957241077477712,
+      0.9558250722829572,
+      0.9913428908337912,
+      0.8463037228063245,
+      0.7963007466397923,
+      0.8058911706808635,
+      0.8147953149834581,
+      0.774940573202743,
+      0.7614984553402686
+    ],
+    [
+      0.9759781513335594,
+      0.9713333333333334,
+      0.9648,
+      0.9696760233642276,
+      0.9705792563271682,
+      0.992422008390162,
+      0.8518226615383861,
+      0.7910082630796772,
+      0.834040933912005,
+      0.816636916531284,
+      0.7847615302446108,
+      0.7686225705603006
+    ],
+    [
+      0.97727815948039,
+      0.9722,
+      0.9712333333333332,
+      0.9711590411214748,
+      0.9671644314408034,
+      0.9918385917099314,
+      0.8469255469848528,
+      0.7960770375025114,
+      0.8278594335459095,
+      0.8225317626309437,
+      0.7906093933986886,
+      0.7821355666896013
+    ],
+    [
+      0.9759319745045008,
+      0.9708666666666668,
+      0.9677,
+      0.9734336373431316,
+      0.9731687433897894,
+      0.9921928754311834,
+      0.8483563853865146,
+      0.8036201596396495,
+      0.8241330499358316,
+      0.8238575725067013,
+      0.7927969906894828,
+      0.7795838676888992
+    ]
+  ],
+  "direction": "higher",
+  "scale": {
+    "mode": "dual_anchor_custom",
+    "inner_anchor": [
+      0.43,
+      0.67,
+      0.51,
+      0.7,
+      0.46,
+      0.63,
+      0.55,
+      0.71,
+      0.4,
+      0.64,
+      0.48,
+      0.69
+    ],
+    "outer_anchor": [
+      0.972,
+      0.914,
+      0.989,
+      0.936,
+      0.995,
+      0.887,
+      0.963,
+      0.923,
+      0.984,
+      0.901,
+      0.978,
+      0.947
+    ]
+  },
+  "curve": {
+    "mode": "centripetal_catmull_rom",
+    "alpha": 0.5,
+    "samples_per_segment": 40
+  },
+  "annotations": {
+    "extrema": "min_max",
+    "precision": 3,
+    "tie_tolerance": 0.0,
+    "neutral_tie_color": "#AEB8BE",
+    "min_label_offset": -0.018,
+    "max_label_offset": 0.018
+  },
+  "style": {
+    "highlight_model": "Model E",
+    "line_width_pt": 0.55,
+    "highlight_width_pt": 0.9,
+    "marker_size_pt": 2.0,
+    "label_radius": 1.17,
+    "label_fontsize": 8,
+    "score_fontsize": 7,
+    "legend_fontsize": 8,
+    "legend_ncol": 3,
+    "line_gap_samples": 2,
+    "figsize": [
+      8.5,
+      8.5
+    ],
+    "dpi": 400,
+    "font_family": "Arial",
+    "font_fallback": [
+      "Liberation Sans",
+      "DejaVu Sans"
+    ]
+  },
+  "summary": null,
+  "subtitle": "Anonymized example | Axis-specific display scales | Raw minimum / maximum labels"
+}
